@@ -15,7 +15,7 @@ const BlogPage = () => {
     useEffect(() => {
       document.title = "Blog Page | TechnoItems";
 
-      fetch("http://localhost:5000/api/blogs")
+      fetch("https://technoitemsbackend.onrender.com/api/blogs")
         .then((res) => res.json())
         .then((data) => {
           setBlogs(data);
