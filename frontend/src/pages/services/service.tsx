@@ -11,7 +11,7 @@ import { testimonialsData } from "@/data/service/testimonial";
 
 import type { IFeature , IPricing , ITestimonial } from "@/data/types/service";
 
-import { motion } from "@motionone/react";
+import { motion } from "framer-motion";
 import { ArrowUpRight } from "lucide-react";
 import Marquee from "react-fast-marquee";
 
@@ -63,7 +63,7 @@ export default function Service() {
                 "
                 initial={{ y: 50, opacity: 0 }}
                 animate={{ y: 0, opacity: 1 }}
-                transition={{ duration: 0.8, easing: "ease-out" }}
+                transition={{ duration: 0.8, ease: "easeOut" }}
             >
                 <span style={{ fontSize: "clamp(1.5rem, 4vw, 3rem)", marginTop:"40px"}} className="move-gradient px-3 py-1 rounded-xl">
                   {service.title}
@@ -72,14 +72,14 @@ export default function Service() {
             <motion.p className="text-base text-center text-slate-200 max-w-lg mt-6"
                 initial={{ y: 50, opacity: 0 }}
                 animate={{ y: 0, opacity: 1 }}
-                transition={{ duration: 0.8, easing: "ease-out"}}
+                transition={{ duration: 0.8, ease: "easeOut"}}
             >
                 {service.subtitle}
             </motion.p>
             <motion.h1 className="text-4xl/12 md:text-6xl/21 font-medium max-w-7xl text-center"
                 initial={{ y: 50, opacity: 0 }}
                 animate={{ y: 0, opacity: 1 }}
-                transition={{ duration: 0.8, easing: "ease-out"}}
+                transition={{ duration: 0.8, ease: "easeOut"}}
             >
                 {service.description}
                 {/* <span className="move-gradient px-3 rounded-xl text-nowrap">Next.js site.</span> */}
@@ -87,14 +87,14 @@ export default function Service() {
             <motion.p className="text-base text-center text-slate-200 max-w-lg mt-6"
                 initial={{ y: 50, opacity: 0 }}
                 animate={{ y: 0, opacity: 1 }}
-                transition={{ duration: 0.8, easing: "ease-out"}}
+                transition={{ duration: 0.8, ease: "easeOut"}}
             >
                 {service.description2}
             </motion.p>
             <motion.div className="flex items-center gap-4 mt-8"
                 initial={{ y: 50, opacity: 0 }}
                 animate={{ y: 0, opacity: 1 }}
-                transition={{ duration: 0.8, easing: "ease-out"}}
+                transition={{ duration: 0.8, ease: "easeOut"}}
             >
                 <button className={`${service.theme.bgButton} ${service.theme.hover} text-white rounded-full px-7 h-11`}>
                     {service.ctaPrimary}
@@ -109,7 +109,7 @@ export default function Service() {
                     <motion.p className="flex items-center gap-2" key={index}
                     initial={{ y: 30, opacity: 0 }}
                     animate={{ y: 0, opacity: 1 }}
-                    transition={{ delay: index * 0.2, duration: 0.3, easing: "ease-out" }}
+                    transition={{ delay: index * 0.2, duration: 0.3, ease: "easeOut" }}
 
                     >
                         <CheckIcon className={`size-5 ${service.theme.text}`} />
@@ -126,7 +126,7 @@ export default function Service() {
                     <motion.div key={index} className={`${index === 1 ? `p-px rounded-[13px] bg-linear-to-br ${service.theme.from} to-slate-800` : ''}`}
                     initial={{ y: 150, opacity: 0 }}
                     animate={{ y: 0, opacity: 1 }}
-                    transition={{ delay: index * 0.15, duration: 0.8, easing: "ease-out" }}
+                    transition={{ delay: index * 0.15, duration: 0.8, ease: "easeOut" }}
 
                     >
                         <div className="p-6 rounded-xl space-y-4 border border-slate-800 bg-slate-950 max-w-80 w-full">
@@ -148,7 +148,7 @@ export default function Service() {
                 <motion.p className="text-slate-300 text-lg text-left max-w-3xl"
                 initial={{ y: 150, opacity: 0 }}
                 animate={{ y: 0, opacity: 1 }}
-                transition={{ duration: 0.8, easing: "ease-out" }}
+                transition={{ duration: 0.8, ease: "easeOut" }}
                 >
                 {service.valueProposition.description}
                 </motion.p>
@@ -156,14 +156,14 @@ export default function Service() {
                     <motion.div className="md:col-span-2"
                         initial={{ y: 150, opacity: 0 }}
                         animate={{ y: 0, opacity: 1 }}
-                        transition={{ duration: 0.8, easing: "ease-out" }}
+                        transition={{ duration: 0.8, ease: "easeOut" }}
                         >
                         <img className="h-full w-auto" src="../assets/features-showcase-1.png" alt="features showcase" width={1000} height={500} />
                     </motion.div>
                     <motion.div className="md:col-span-1"
                         initial={{ y: 150, opacity: 0 }}
                         animate={{ y: 0, opacity: 1 }}
-                        transition={{ delay: 0.15, duration: 0.8, easing: "ease-out" }}
+                        transition={{ delay: 0.15, duration: 0.8, ease: "easeOut" }}
                     >
                         <img src="../assets/features-showcase-2.png" alt="features showcase" width={1000} height={500} className="hover:-translate-y-0.5 transition duration-300" />
                         <h3 className="text-[24px]/7.5 text-slate-300 font-medium mt-6">{service.valueProposition.headline} </h3>
@@ -207,7 +207,7 @@ export default function Service() {
                     <motion.div key={index} className={`w-72 text-center border border-pink-950 p-6 pb-16 rounded-xl ${plan.mostPopular ? 'bg-pink-950 relative' : 'bg-pink-950/30'}`}
                         initial={{ y: 150, opacity: 0 }}
                         animate={{ y: 0, opacity: 1 }}
-                        transition={{ delay: index * 0.15, duration: 0.8, easing: "ease-out" }}
+                        transition={{ delay: index * 0.15, duration: 0.8, ease: "easeOut" }}
                     >
                         {plan.mostPopular && (
                             <p className="absolute px-3 text-sm -top-3.5 left-3.5 py-1 bg-pink-400 rounded-full">Most Popular</p>
@@ -286,7 +286,7 @@ export default function Service() {
             className="max-w-5xl py-16 mt-40 md:pl-20 md:w-full max-md:mx-4 md:mx-auto flex flex-col md:flex-row max-md:gap-6 items-center justify-between text-left bg-linear-to-b from-pink-900 to-pink-950 rounded-2xl p-6 text-white"
             initial={{ y: 150, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
-            transition={{ duration: 0.8, easing: "ease-out" }}
+            transition={{ duration: 0.8, ease: "easeOut" }}
         >
             <div
             style={{
@@ -314,7 +314,7 @@ export default function Service() {
                     className="text-4xl md:text-[46px] md:leading-15 font-semibold bg-linear-to-r from-white to-pink-400 text-transparent bg-clip-text"
                     initial={{ y: 80, opacity: 0 }}
                     animate={{ y: 0, opacity: 1 }}
-                    transition={{ duration: 0.8, easing: "ease-out" }}
+                    transition={{ duration: 0.8, ease: "easeOut" }}
                 >
                     Ready to Build Your Website?
                 </motion.h1>
@@ -323,7 +323,7 @@ export default function Service() {
                     className="bg-linear-to-r from-white to-pink-400 text-transparent bg-clip-text text-lg"
                     initial={{ y: 80, opacity: 0 }}
                     animate={{ y: 0, opacity: 1 }}
-                    transition={{ duration: 0.8, easing: "ease-out" }}
+                    transition={{ duration: 0.8, ease: "easeOut" }}
                 >
                     Turn your ideas into a high‑performance, scalable website built to grow your business.
                 </motion.p>
@@ -333,7 +333,7 @@ export default function Service() {
                 className="px-12 py-3 text-slate-800 bg-white hover:bg-slate-200 rounded-full text-sm mt-4"
                 initial={{ y: 80, opacity: 0 }}
                 animate={{ y: 0, opacity: 1 }}
-                transition={{ duration: 0.8, easing: "ease-out" }}
+                transition={{ duration: 0.8, ease: "easeOut" }}
             >
                 Get Started
             </motion.button>
@@ -355,7 +355,7 @@ export default function Service() {
             <motion.div
             initial={{ y: 150, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
-            transition={{ duration: 0.8, easing: "ease-out" }}
+            transition={{ duration: 0.8, ease: "easeOut" }}
             >
             <p className="mb-2 font-medium">Your name</p>
             <div className="flex items-center pl-3 rounded-lg border border-slate-700 focus-within:border-pink-500">
@@ -374,7 +374,7 @@ export default function Service() {
             <motion.div
             initial={{ y: 150, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
-            transition={{ duration: 0.8, easing: "ease-out" }}
+            transition={{ duration: 0.8, ease: "easeOut" }}
             >
             <p className="mb-2 font-medium">Email id</p>
             <div className="flex items-center pl-3 rounded-lg border border-slate-700 focus-within:border-pink-500">
@@ -395,7 +395,7 @@ export default function Service() {
             className="sm:col-span-2"
             initial={{ y: 150, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
-            transition={{ duration: 0.8, easing: "ease-out" }}
+            transition={{ duration: 0.8, ease: "easeOut" }}
             >
             <p className="mb-2 font-medium">Message</p>
             <textarea
@@ -413,7 +413,7 @@ export default function Service() {
             className={`
                 w-max flex items-center gap-2 cursor-pointer text-white
                 px-10 py-3 rounded-full
-                transition-colors duration-300 ease-out
+                transition-colors duration-300 easeOut
                 ${service.theme.bgD}
                 ${service.theme.hover}
             `}
