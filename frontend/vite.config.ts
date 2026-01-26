@@ -5,7 +5,7 @@ import { componentTagger } from "lovable-tagger";
 import tailwindcss from "@tailwindcss/vite";
 
 export default defineConfig(({ mode }) => ({
-    base: "/TechnoItem/",
+    base: "/",
   server: {
     host: "::",
     port: 8080,
