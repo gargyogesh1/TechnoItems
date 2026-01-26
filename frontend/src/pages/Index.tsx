@@ -19,7 +19,7 @@ const Index = () => {
 
   // Set page title
   useEffect(() => {
-    document.title = "CryptoFlow | Modern Cryptocurrency Trading";
+    document.title = "TechnoItems | AI Digital World";
   }, []);
   
   return (
