@@ -6,11 +6,6 @@ import tailwindcss from "@tailwindcss/vite";
 
 export default defineConfig(({ mode }) => ({
     base: "/",
-  server: {
-    host: "::",
-    port: 8080,
-    open: true,
-  },
   plugins: [
     react(),
     mode === 'development' &&
@@ -21,18 +16,18 @@ export default defineConfig(({ mode }) => ({
       "@": path.resolve(__dirname, "./src"),
     },
   },
-  build: {
-    rollupOptions: {
-      output: {
-        entryFileNames: 'index.js',
-        chunkFileNames: 'chunk-[name].js',
-        assetFileNames: (assetInfo) => {
-          if (assetInfo.name && assetInfo.name.endsWith('.css')) {
-            return 'index.css';
-          }
-          return 'asset-[name][extname]';
-        },
-      },
-    },
-  },
+  // build: {
+  //   rollupOptions: {
+  //     output: {
+  //       entryFileNames: 'index.js',
+  //       chunkFileNames: 'chunk-[name].js',
+  //       assetFileNames: (assetInfo) => {
+  //         if (assetInfo.name && assetInfo.name.endsWith('.css')) {
+  //           return 'index.css';
+  //         }
+  //         return 'asset-[name][extname]';
+  //       },
+  //     },
+  //   },
+  // },
 }));
