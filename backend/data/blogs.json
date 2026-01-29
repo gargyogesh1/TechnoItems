@@ -90,6 +90,124 @@
     }
   },
   {
+  "id": 1,
+  "slug": "custom-ecommerce-platform-development-packages-2026",
+  "title": "Custom E‑Commerce Platform Development Packages for Every Business",
+
+  "seo": {
+    "metaTitle": "E‑Commerce Platform Development Services 2026",
+    "metaDescription": "Discover our Silver, Gold, Platinum, and Diamond e‑commerce development packages designed to build secure, scalable, and high‑performance online stores.",
+    "focusKeyword": "e-commerce platform development"
+  },
+
+  "featuredImage": "https://images.unsplash.com/photo-1519337265831-281ec6cc8514",
+  "publishDate": "26 Jan 2026",
+  "lastUpdated": "26 Jan 2026",
+  "readingTime": "6 min read",
+
+  "author": {
+    "name": "Ram Kumar",
+    "image": "https://images.unsplash.com/photo-1607746882042-944635dfe10e",
+    "designation": "E‑Commerce Solutions Architect"
+  },
+
+  "intro": "Launching a successful online store requires more than just a website—it needs a powerful, scalable, and user‑friendly e‑commerce platform. We provide complete e‑commerce development solutions with flexible packages tailored to startups, growing brands, and enterprise businesses.",
+
+  "sections": [
+    {
+      "heading": "Silver Package – Essential E‑Commerce Store",
+      "content": "The Silver Package is ideal for businesses that want a strong foundation for selling products online. It includes all the core features required to manage products, orders, and customers efficiently.",
+      "bulletPoints": [
+        "Home page, product listing & product detail pages",
+        "Category & sub‑category management",
+        "Add to cart, checkout & order confirmation",
+        "Admin panel to add, edit & delete products",
+        "Order management, about us & contact pages"
+      ]
+    },
+    {
+      "heading": "Gold Package – Enhanced User Experience",
+      "content": "The Gold Package focuses on customer engagement and convenience by adding user‑centric features that improve shopping experience and increase repeat purchases.",
+      "bulletPoints": [
+        "User login & signup authentication",
+        "Profile and address management",
+        "Coupon & discount system",
+        "Wishlist and favourite products",
+        "Saved carts and secure payment detail storage"
+      ]
+    },
+    {
+      "heading": "Platinum Package – Smart & Scalable Commerce",
+      "content": "The Platinum Package is built for growing businesses that need automation, insights, and scalability to manage higher traffic and sales volumes.",
+      "bulletPoints": [
+        "Product reviews & ratings",
+        "Invoice generation (PDF)",
+        "Automated email notifications",
+        "Admin dashboard with sales & analytics",
+        "Multiple payment gateways and order status tracking"
+      ]
+    },
+    {
+      "heading": "Diamond Package – Mobile‑First E‑Commerce",
+      "content": "The Diamond Package delivers a complete mobile commerce experience, allowing businesses to reach customers directly on their smartphones with native‑like performance.",
+      "bulletPoints": [
+        "Android & iOS mobile apps (React Native / Flutter)",
+        "App push notifications",
+        "In‑app order tracking"
+      ]
+    },
+    {
+      "heading": "Optional Advanced Features",
+      "content": "For businesses looking to build large‑scale or unique platforms, we offer advanced optional features that can be integrated with any package.",
+      "bulletPoints": [
+        "Multi‑vendor marketplace",
+        "Subscription‑based products",
+        "Live chat support"
+      ]
+    }
+  ],
+
+  "conclusion": "Our e‑commerce development packages are designed to grow with your business—from a basic online store to a full‑featured, mobile‑first marketplace. With secure architecture, modern UI/UX, and scalable technology, we help you turn visitors into loyal customers.",
+
+  "impParagraph": "Choosing the right e‑commerce platform is crucial for long‑term success. Our flexible packages ensure you get exactly what your business needs today, with the ability to scale tomorrow.",
+
+  "cta": {
+    "text": "Start Your E‑Commerce Project",
+    "link": "/contact"
+  },
+
+  "secondaryCta": {
+    "text": "View E‑Commerce Services",
+    "link": "/services/ecommerce-development"
+  },
+
+  "internalLinks": [
+    {
+      "text": "Complete E‑Commerce Development Guide",
+      "url": "/blogs/ecommerce-development-guide"
+    }
+  ],
+
+  "externalLinks": [
+    {
+      "text": "Shopify E‑Commerce Best Practices",
+      "url": "https://www.shopify.com/blog"
+    }
+  ],
+
+  "tags": ["e-commerce", "online store", "web development", "mobile app"],
+  "views": 0,
+  "comments": 0,
+
+  "relatedPosts": [2],
+
+  "shareLinks": {
+    "facebook": "https://facebook.com/sharer/sharer.php",
+    "twitter": "https://twitter.com/intent/tweet",
+    "linkedin": "https://linkedin.com/shareArticle"
+  }
+  },
+  {
     "id": 2,
     "slug": "scalable-app-development-best-practices",
     "title": "Scalable App Development: Best Practices for Modern Businesses",

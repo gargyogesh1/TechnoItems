@@ -15,7 +15,8 @@ const BlogPage = () => {
     useEffect(() => {
       document.title = "Blog Page | TechnoItems";
 
-      fetch("https://technoitemsbackend.onrender.com/api/blogs")
+      // fetch("https://technoitemsbackend.onrender.com/api/blogs")
+      fetch("http://localhost:5000/api/blogs")
         .then((res) => res.json())
         .then((data) => {
           setBlogs(data);
@@ -32,8 +33,8 @@ const BlogPage = () => {
     <>
     <Navbar></Navbar>
       <Breadcrumb
-        pageName="Blog Grid"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In varius eros eget sapien consectetur ultrices. Ut quis dapibus libero."
+        pageName="Our Blog"
+        description="Insights, trends, and expert perspectives from our software development team. Explore articles on web development, mobile apps, e‑commerce solutions, and emerging technologies."
       />
 
       <section className="pt-[120px] pb-[120px]">

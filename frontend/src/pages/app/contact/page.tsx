@@ -39,10 +39,11 @@ const ContactPage = () => {
         />
     </Helmet>
     <Navbar></Navbar>
-      <Breadcrumb
-        pageName="Contact Page"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In varius eros eget sapien consectetur ultrices. Ut quis dapibus libero."
-      />
+    <Breadcrumb
+      pageName="Contact Us"
+      description="Get in touch with our software development team to discuss your project, ask questions, or explore AI-driven and custom technology solutions for your business."
+    />
+
 
       <Contact />
       <Footer></Footer>

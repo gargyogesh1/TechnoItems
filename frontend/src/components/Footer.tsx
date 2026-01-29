@@ -42,34 +42,34 @@ const Footer = () => {
           <div>
             <h3 className="text-white font-medium mb-4">Services</h3>
             <ul className="space-y-2">
-              <li><a href="#!" className="text-gray-400 hover:text-crypto-purple transition-colors">Web Development</a></li>
-              <li><a href="#!" className="text-gray-400 hover:text-crypto-purple transition-colors">Mobile App Development</a></li>
-              <li><a href="#!" className="text-gray-400 hover:text-crypto-purple transition-colors">Digital Marketing</a></li>
-              <li><a href="#!" className="text-gray-400 hover:text-crypto-purple transition-colors">AI Agents & Automation</a></li>
-              <li><a href="#!" className="text-gray-400 hover:text-crypto-purple transition-colors">Data Science Solutions</a></li>
+              <li><a href="/service/web" className="text-gray-400 hover:text-crypto-purple transition-colors">Web Development</a></li>
+              <li><a href="/service/app" className="text-gray-400 hover:text-crypto-purple transition-colors">Mobile App Development</a></li>
+              <li><a href="/service/digitalMarketing" className="text-gray-400 hover:text-crypto-purple transition-colors">Digital Marketing</a></li>
+              <li><a href="/service/dataScienceAI" className="text-gray-400 hover:text-crypto-purple transition-colors">AI Agents & Automation</a></li>
+              <li><a href="/service/dataScienceAI" className="text-gray-400 hover:text-crypto-purple transition-colors">Data Science Solutions</a></li>
             </ul>
           </div>
           
           <div>
             <h3 className="text-white font-medium mb-4">Industries</h3>
             <ul className="space-y-2">
-              <li><a href="#!" className="text-gray-400 hover:text-crypto-purple transition-colors">E‑Commerce Development</a></li>
-              <li><a href="#!" className="text-gray-400 hover:text-crypto-purple transition-colors">Healthcare & Medical Tech</a></li>
-              <li><a href="#!" className="text-gray-400 hover:text-crypto-purple transition-colors">Finance & FinTech</a></li>
-              <li><a href="#!" className="text-gray-400 hover:text-crypto-purple transition-colors">Real Estate & Property Tech</a></li>
-              <li><a href="#!" className="text-gray-400 hover:text-crypto-purple transition-colors">Logistics & Transportation</a></li>
-              <li><a href="#!" className="text-gray-400 hover:text-crypto-purple transition-colors">E‑Commerce & Marketplaces</a></li>
+              <li><a href="/startup/Ecom" className="text-gray-400 hover:text-crypto-purple transition-colors">E‑Commerce Development</a></li>
+              <li><a href="/startup/Health" className="text-gray-400 hover:text-crypto-purple transition-colors">Healthcare & Medical Tech</a></li>
+              <li><a href="/startup/finance" className="text-gray-400 hover:text-crypto-purple transition-colors">Finance & FinTech</a></li>
+              <li><a href="/startup/PropTech" className="text-gray-400 hover:text-crypto-purple transition-colors">Real Estate & Property Tech</a></li>
+              <li><a href="/startup/Logistics" className="text-gray-400 hover:text-crypto-purple transition-colors">Logistics & Transportation</a></li>
+              {/* <li><a href="#!" className="text-gray-400 hover:text-crypto-purple transition-colors">E‑Commerce & Marketplaces</a></li> */}
             </ul>
           </div>
           
           <div>
             <h3 className="text-white font-medium mb-4">Resources</h3>
             <ul className="space-y-2">
-              <li><a href="#!" className="text-gray-400 hover:text-crypto-purple transition-colors">Blog & Case Studies</a></li>
-              <li><a href="#!" className="text-gray-400 hover:text-crypto-purple transition-colors">About</a></li>
-              <li><a href="#!" className="text-gray-400 hover:text-crypto-purple transition-colors">Portfolio</a></li>
-              <li><a href="#!" className="text-gray-400 hover:text-crypto-purple transition-colors">Schedule Meeting</a></li>
-              <li><a href="#!" className="text-gray-400 hover:text-crypto-purple transition-colors">Contact Us</a></li>
+              <li><a href="/blog" className="text-gray-400 hover:text-crypto-purple transition-colors">Blog & Case Studies</a></li>
+              <li><a href="/about" className="text-gray-400 hover:text-crypto-purple transition-colors">About</a></li>
+              <li><a href="/about" className="text-gray-400 hover:text-crypto-purple transition-colors">Portfolio</a></li>
+              <li><a href="/" className="text-gray-400 hover:text-crypto-purple transition-colors">Schedule Meeting</a></li>
+              <li><a href="/contact" className="text-gray-400 hover:text-crypto-purple transition-colors">Contact Us</a></li>
             </ul>
           </div>
         </div>

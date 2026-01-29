@@ -1,56 +1,5 @@
 
 export const servicesContent = {
-  // web: {
-  //   title: "Web Development Services",
-  //   subtitle: "Build Fast, Secure & Scalable Websites",
-  //   description:
-  //     "We create high‑performance, SEO‑friendly websites that help businesses grow, engage users, and convert visitors into customers.",
-  //   points: [
-  //     "Custom Website Development",
-  //     "Frontend & Backend Development",
-  //     "Responsive & Mobile‑First Design",
-  //     "Secure & Scalable Architecture",
-  //   ],
-  // },
-
-  // app: {
-  //   title: "Mobile App Development",
-  //   subtitle: "Powerful Apps for Android & iOS",
-  //   description:
-  //     "We design and develop intuitive, high‑performance mobile applications that deliver seamless user experiences.",
-  //   points: [
-  //     "Android & iOS App Development",
-  //     "Cross‑Platform Solutions",
-  //     "UI/UX Focused Design",
-  //     "Scalable Backend Integration",
-  //   ],
-  // },
-
-  // digitalMarketing: {
-  //   title: "Digital Marketing Services",
-  //   subtitle: "Grow Your Brand & Boost Conversions",
-  //   description:
-  //     "Data‑driven digital marketing strategies that increase traffic, generate leads, and maximize ROI.",
-  //   points: [
-  //     "SEO & Content Marketing",
-  //     "Social Media Marketing",
-  //     "Paid Ads & PPC Campaigns",
-  //     "Conversion Rate Optimization",
-  //   ],
-  // },
-
-  // dataScience: {
-  //   title: "Data Science Solutions",
-  //   subtitle: "Turn Data into Business Intelligence",
-  //   description:
-  //     "Advanced analytics and AI‑driven insights to help businesses make smarter decisions.",
-  //   points: [
-  //     "Data Analysis & Visualization",
-  //     "Machine Learning Models",
-  //     "Predictive Analytics",
-  //     "Business Intelligence Dashboards",
-  //   ],
-  // },
   web: {
     // themeColor: "bg-pink-600",
     theme: {
@@ -114,22 +63,22 @@ export const servicesContent = {
     // ✅ SIMPLE TECHNOLOGY SHOWCASE (logos / icons section)
   technologies: [
     {
-      image: "/tech/python.png",
+      image: "/images/tech/python.png",
       name: "Python",
       stack: ["Django", "Flask"],
     },
     {
-      image: "/tech/php.png",
+      image: "/images/tech/php.png",
       name: "PHP",
       stack: ["Laravel"],
     },
     {
-      image: "/tech/java.png",
+      image: "/images/tech/java.png",
       name: "Java",
       stack: ["Spring Boot"],
     },
     {
-      image: "/tech/react.png",
+      image: "/images/tech/react.png",
       name: "ReactJS",
       stack: ["NodeJS", "Express", "NextJS"],
     },
@@ -264,24 +213,24 @@ export const servicesContent = {
     // ✅ SIMPLE TECHNOLOGY SHOWCASE (logos / icons section)
     technologies: [
       {
-        image: "/tech/android.png",
+        image: "/images/tech/android.png",
         name: "Android",
         stack: ["Kotlin", "Java"],
       },
       {
-        image: "/tech/apple.png",
+        image: "/images/tech/apple.png",
         name: "iOS",
         stack: ["Swift", "Objective‑C"],
       },
       {
-        image: "/tech/flutter.png",
+        image: "/images/tech/flutter.png",
         name: "Flutter",
         stack: ["Dart"],
       },
       {
-        image: "/tech/react-native.png",
-        name: "React Native",
-        stack: ["JavaScript", "TypeScript"],
+        image: "/images/tech/swift.png",
+        name: "Swift",
+        stack: ["UIKit", "SwiftUI"],
       },
     ],
 
@@ -412,24 +361,24 @@ export const servicesContent = {
     // ✅ SIMPLE TECHNOLOGY / TOOLS SHOWCASE
     technologies: [
       {
-        image: "/tech/google.png",
+        image: "/images/tech/googleads.png",
         name: "Google",
         stack: ["Google Analytics", "Search Console", "Google Ads"],
       },
       {
-        image: "/tech/meta.png",
+        image: "/images/tech/meta.png",
         name: "Meta",
         stack: ["Facebook Ads", "Instagram Ads"],
       },
       {
-        image: "/tech/linkedin.png",
+        image: "/images/tech/linkedin.png",
         name: "LinkedIn",
         stack: ["LinkedIn Ads", "B2B Lead Generation"],
       },
       {
-        image: "/tech/tools.png",
-        name: "Marketing Tools",
-        stack: ["Ahrefs", "SEMrush", "Mailchimp"],
+        image: "/images/tech/seo.png",
+        name: "SEO",
+        stack: ["Search Engine Optimization"],
       },
     ],
 
@@ -560,22 +509,22 @@ export const servicesContent = {
     // ✅ SIMPLE TECHNOLOGY SHOWCASE
     technologies: [
       {
-        image: "/tech/python.png",
+        image: "/images/tech/python.png",
         name: "Python",
         stack: ["Pandas", "NumPy", "Scikit‑learn"],
       },
       {
-        image: "/tech/tensorflow.png",
+        image: "/images/tech/tensorflow.png",
         name: "TensorFlow",
         stack: ["Keras", "Deep Learning"],
       },
       {
-        image: "/tech/pytorch.png",
+        image: "/images/tech/pytorch.png",
         name: "PyTorch",
         stack: ["Neural Networks"],
       },
       {
-        image: "/tech/cloud-ai.png",
+        image: "/images/tech/AI.png",
         name: "Cloud AI",
         stack: ["AWS", "Azure", "Google Cloud"],
       },

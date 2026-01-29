@@ -11,13 +11,13 @@ const AboutSectionTwo = ({ data }) => {
               data-wow-delay=".15s"
             >
               <img
-                src={data.images.light}
+                src="../images/about/about-image-2.svg"
                 alt="about image"
 
                 className="drop-shadow-three dark:hidden dark:drop-shadow-none"
               />
               <img
-                src={data.images.dark}
+                src="../images/about/about-image-2.svg"
                 alt="about image"
                 className="hidden drop-shadow-three dark:block dark:drop-shadow-none"
               />
