@@ -1,8 +1,12 @@
 
 import { ArrowRight, ArrowUpRight, ChevronRight } from 'lucide-react';
 import { Button } from "@/components/ui/button";
+import { useMeeting } from "@/components/MeetingContext";
+import { Link } from "react-router-dom";
+
 
 const Hero = () => {
+  const { setOpen } = useMeeting();
   return (
     <section className="relative min-h-screen flex flex-col justify-center overflow-hidden bg-gradient-hero hero-glow">
       {/* Animated Background Elements */}
@@ -26,14 +30,20 @@ const Hero = () => {
               Empower your business with cutting-edge software, AI-driven insights, and result-oriented digital marketing strategies—all under one roof.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button size="lg" className="bg-crypto-purple hover:bg-crypto-dark-purple text-white px-8 py-6">
+              <Button
+                size="lg"
+                className="bg-crypto-purple hover:bg-crypto-dark-purple text-white px-8 py-6"
+                onClick={() => setOpen(true)}
+              >
                 Schedule Meeting
                 <ArrowRight className="ml-2 h-5 w-5" />
               </Button>
-              <Button variant="outline" size="lg" className="border-gray-700 text-white hover:bg-white/5 py-6">
-                View Portfolio
-                <ArrowUpRight className="ml-2 h-5 w-5" />
-              </Button>
+              <Link to="/about">
+                <Button variant="outline" size="lg" className="border-gray-700 text-white hover:bg-white/5 py-6">
+                  View Portfolio
+                  <ArrowUpRight className="ml-2 h-5 w-5" />
+                </Button>
+              </Link>
             </div>
             <div className="mt-8 flex items-center space-x-6">
               <div>

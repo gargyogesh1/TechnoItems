@@ -1,8 +1,13 @@
 
 import { Button } from '@/components/ui/button';
 import { ArrowRight } from 'lucide-react';
+import { useMeeting } from "@/components/MeetingContext";
+import { Link } from "react-router-dom";
+
 
 const CTA = () => {
+    const { setOpen } = useMeeting();
+
   return (
     <section style={{backgroundColor: "rgb(18 20 28 / var(--tw-bg-opacity, 1))" }} className="py-24 bg-gradient-to-b from-crypto-blue to-[#12141C] relative overflow-hidden">
       {/* Background Elements */}
@@ -19,13 +24,15 @@ const CTA = () => {
           <p className="text-gray-300 text-lg mb-8 max-w-2xl mx-auto animate-fade-in" style={{ animationDelay: '0.2s' }}>
             Partner with TechnoItems to build powerful software, AI‑driven solutions, and result‑oriented digital experiences that scale with your business.          </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4 animate-fade-in" style={{ animationDelay: '0.4s' }}>
-            <Button size="lg" className="bg-crypto-purple hover:bg-crypto-dark-purple text-white px-8 py-6">
+            <Button size="lg" className="bg-crypto-purple hover:bg-crypto-dark-purple text-white px-8 py-6" onClick={() => setOpen(true)}>
               Get a Free Consultation
               <ArrowRight className="ml-2 h-5 w-5" />
             </Button>
-            <Button variant="outline" size="lg" className="border-white/20 text-white hover:bg-white/5 py-6">
-              Schedule Demo
-            </Button>
+            <Link to="/contact" onClick={() => window.scrollTo(0, 0)}>
+              <Button variant="outline" size="lg" className="border-white/20 text-white hover:bg-white/5 py-6" >
+                Schedule Demo
+              </Button>
+            </Link>
           </div>
           <p className="mt-6 text-sm text-gray-400 animate-fade-in" style={{ animationDelay: '0.6s' }}>
             No upfront commitment • Free initial consultation • Transparent process

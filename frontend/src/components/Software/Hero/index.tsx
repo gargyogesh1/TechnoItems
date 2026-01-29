@@ -1,6 +1,10 @@
 import {Link} from "react-router-dom";
+import { Button } from "@/components/ui/button";
+import { useMeeting } from "@/components/MeetingContext";
+
 const Hero = ({ data }) => {
   if (!data) return null;
+  const { setOpen } = useMeeting();
   return (
     <>
       <section
@@ -17,20 +21,40 @@ const Hero = ({ data }) => {
                 <p className="mb-12 text-base leading-relaxed! text-body-color dark:text-body-color-dark sm:text-lg md:text-xl">
                   {data.hero.description}
                 </p>
-                <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
-                  <Link
-                    to={data.buttons[0].url}
+                {/* <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
+                  <Button  onClick={() => setOpen(true)}
+                    // to={data.buttons[0].url}
                     className="rounded-xs bg-primary px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80"
                   >
                     🔥 {data.buttons[0].label}
-                  </Link>
-                  <Link
-                    to={data.buttons[1].url}
+                  </Button>
+                  <Link to="/contact" onClick={() => window.scrollTo(0, 0)}
                     className="inline-block rounded-xs bg-black px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-black/90 dark:bg-white/10 dark:text-white dark:hover:bg-white/5"
                   >
                     {data.buttons[1].label}
                   </Link>
+                </div> */}
+                <div className="flex flex-col items-center justify-center gap-4 sm:flex-row sm:gap-4">
+  
+                  <Button
+                    onClick={() => setOpen(true)}
+                    className="h-12 rounded-xs bg-primary px-8 text-base font-semibold text-white hover:bg-primary/80"
+                  >
+                    🔥 {data.buttons[0].label}
+                  </Button>
+
+                  <Button
+                    asChild
+                    variant="secondary"
+                    className="h-12 rounded-xs bg-black px-8 text-base font-semibold text-white hover:bg-black/90 dark:bg-white/10 dark:hover:bg-white/5"
+                  >
+                    <Link to="/contact" onClick={() => window.scrollTo(0, 0)}>
+                      {data.buttons[1].label}
+                    </Link>
+                  </Button>
+
                 </div>
+
               </div>
             </div>
           </div>

@@ -33,7 +33,7 @@ const Navbar = () => {
     <nav className={`fixed w-full z-50 transition-all duration-300 ${isScrolled ? 'bg-crypto-blue/80 backdrop-blur-md py-3 shadow-lg' : 'py-6'}`}>
       <div className="container mx-auto px-4 flex justify-between items-center">
         <div className="flex items-center">
-          <Link to="/">
+          <Link to="/" onClick={() => window.scrollTo(0, 0)}>
           <h1 className="text-2xl font-bold text-white">
             Techno<span className="text-crypto-purple">Items</span>
           </h1>
@@ -62,7 +62,7 @@ const Navbar = () => {
             >
               <li>
               <Link
-                to="/service/web"
+                to="/service/web" onClick={() => window.scrollTo(0, 0)}
                 className="block px-4 py-2 text-gray-300 hover:bg-gray-800 hover:text-white rounded-t-lg"
               >
                 Web Development
@@ -70,7 +70,7 @@ const Navbar = () => {
               </li>
               <li>
                 <Link
-                to="/service/app"
+                to="/service/app" onClick={() => window.scrollTo(0, 0)}
                   className="block px-4 py-2 text-gray-300 hover:bg-gray-800 hover:text-white"
                 >
                   App Development
@@ -78,7 +78,7 @@ const Navbar = () => {
               </li>
               <li>
                 <Link
-                to="/service/digitalMarketing"
+                to="/service/digitalMarketing" onClick={() => window.scrollTo(0, 0)}
                   className="block px-4 py-2 text-gray-300 hover:bg-gray-800 hover:text-white"
                 >
                   Digital Marketing
@@ -86,7 +86,7 @@ const Navbar = () => {
               </li>
               <li>
                 <Link
-                to="/service/dataScienceAI"
+                to="/service/dataScienceAI" onClick={() => window.scrollTo(0, 0)}
                   className="block px-4 py-2 text-gray-300 hover:bg-gray-800 hover:text-white rounded-b-lg"
                 >
                   Data Science & AI Agents
@@ -111,7 +111,7 @@ const Navbar = () => {
               {startupLinks.map((item) => (
                 <li key={item.path}>
                   <Link
-                    to={item.path}
+                    to={item.path} onClick={() => window.scrollTo(0, 0)}
                     className="block px-4 py-2 rounded-md text-gray-300 hover:bg-gray-700 hover:text-white"
                   >
                     {item.label}
@@ -122,31 +122,31 @@ const Navbar = () => {
           </li>
           <li>
             <Link
-              to="/blog"
+              to="/blog" onClick={() => window.scrollTo(0, 0)}
               className="text-gray-300 hover:text-white transition-colors"
             >
               Blogs
             </Link>
           </li>
           <li>
-            <Link to="/about" className="text-gray-300 hover:text-white transition-colors">
+            <Link to="/about" onClick={() => window.scrollTo(0, 0)} className="text-gray-300 hover:text-white transition-colors">
               About
             </Link>
           </li>
           <li>
-            <Link to="/contact" className="text-gray-300 hover:text-white transition-colors">
+            <Link to="/contact" onClick={() => window.scrollTo(0, 0)} className="text-gray-300 hover:text-white transition-colors">
               ContactUs
             </Link>
           </li>
         </ul>
 
         <div className="hidden lg:flex items-center space-x-4">
-          <Link to="/signup">
+          <Link to="/signup" onClick={() => window.scrollTo(0, 0)}>
           <Button variant="ghost" className="text-gray-300 hover:text-white">
             Login
           </Button>
           </Link>
-          <Link to="/signin">
+          <Link to="/signin" onClick={() => window.scrollTo(0, 0)}>
             <Button className="bg-crypto-purple hover:bg-crypto-dark-purple text-white w-full">Register</Button>
           </Link>
         </div>
@@ -182,7 +182,7 @@ const Navbar = () => {
                 <ul className="mt-2 ml-4 space-y-2">
                   <li>
                     <Link
-                      to="/service/web"
+                      to="/service/web" 
                       className="block text-gray-400 hover:text-white transition-colors"
                       onClick={() => setIsMobileMenuOpen(false)}
                     >

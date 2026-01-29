@@ -1,9 +1,11 @@
 
 import { Button } from "@/components/ui/button";
 import { steps } from "../data/howItWorks";
+import { useMeeting } from "@/components/MeetingContext";
 
 
 const HowItWorks = () => {
+    const { setOpen } = useMeeting();
   return (
     <section style={{backgroundColor: "rgb(18 20 28 / var(--tw-bg-opacity, 1))" }} id="how-it-works" className="py-24 bg-gradient-to-b from-[#12141C] to-crypto-blue">
       <div className="container mx-auto px-4">
@@ -36,7 +38,7 @@ const HowItWorks = () => {
         </div>
         
         <div className="mt-16 text-center">
-          <Button size="lg" className="bg-crypto-purple hover:bg-crypto-dark-purple text-white px-8">
+          <Button size="lg" className="bg-crypto-purple hover:bg-crypto-dark-purple text-white px-8" onClick={() => setOpen(true)}>
             Schedule Free Consultation
           </Button>
         </div>

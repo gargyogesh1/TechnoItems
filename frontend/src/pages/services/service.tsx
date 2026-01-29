@@ -4,6 +4,8 @@ import SectionTitle from "@/components/service/SectionTitle";
 import TechnologyCard from "@/components/service/TestimonialCard";
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
+import { useMeeting } from "@/components/MeetingContext";
+
 
 // import { featuresData } from "@/data/service/features";
 import { pricingData } from "@/data/service/pricing";
@@ -45,6 +47,8 @@ export default function Service() {
     const featuresData = service.servicesSection.services;
     const technologiesData = service.technologies;
     const techStacks = service.technologiesSection.stacks;
+    const { setOpen } = useMeeting();
+    
     return (
         <>
         <Navbar></Navbar>
@@ -96,7 +100,7 @@ export default function Service() {
                 animate={{ y: 0, opacity: 1 }}
                 transition={{ duration: 0.8, ease: "easeOut"}}
             >
-                <button className={`${service.theme.bgButton} ${service.theme.hover} text-white rounded-full px-7 h-11`}>
+                <button onClick={() => setOpen(true)} className={`${service.theme.bgButton} ${service.theme.hover} text-white rounded-full px-7 h-11`}>
                     {service.ctaPrimary}
                 </button>
                 <button className={`flex items-center gap-2 border ${service.theme.border} ${service.theme.hover} transition rounded-full px-6 h-11`}>
@@ -267,7 +271,7 @@ export default function Service() {
                     </ul>
 
                     {/* ✅ CTA */}
-                    <button
+                    <button onClick={() => setOpen(true)}
                         type="button"
                         className={`w-full py-2.5 rounded-md font-medium mt-7 transition-all ${
                         stack.badge === "Most Popular"

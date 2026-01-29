@@ -17,9 +17,13 @@ import ErrorPage from "./pages/app/error/page";
 import NotFound from "./pages/NotFound";
 import "@/styles/index.css";
 import "@/styles/st.css";
+import ScheduleMeetingModal from "@/components/ScheduleMeetingModal";
+import { useMeeting } from "@/components/MeetingContext";
 const queryClient = new QueryClient();
+const App = () => {
+    const { open, setOpen } = useMeeting();
 
-const App = () => (
+  return (
   <QueryClientProvider client={queryClient}>
     <TooltipProvider>
       <Toaster />
@@ -37,14 +41,17 @@ const App = () => (
             <Route path="/signup" element={<SignupPage />} />
             <Route path="/service" element={<Service />} />
             <Route path="/service/:serviceType" element={<Service />} />
+
             {/* <Route path="/startup" element={<StartUp />} /> */}
             <Route path="/startup/:category" element={<StartUp />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<ErrorPage />} />
         </Routes>
+        <ScheduleMeetingModal open={open} onClose={() => setOpen(false)} />
+
       </BrowserRouter>
     </TooltipProvider>
   </QueryClientProvider>
 );
-
+};
 export default App;
