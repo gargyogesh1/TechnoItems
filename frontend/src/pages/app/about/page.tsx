@@ -35,7 +35,7 @@ const AboutPage = () => {
             
             {/* CEO Image */}
             <div className="w-full px-4 lg:w-1/2">
-              <div className="mx-auto max-w-[360px] text-center lg:text-left">
+              <div className="mx-auto max-w-[430px] text-center lg:text-left">
                 <img
                   src="../assets/AdityaTechnoItems.png"
                   alt="CEO of Techno Items"
