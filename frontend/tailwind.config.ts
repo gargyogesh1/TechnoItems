@@ -102,7 +102,6 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				},
-				// Custom crypto colors
 				crypto: {
 					blue: '#1A1F2C',
 					purple: '#9b87f5',

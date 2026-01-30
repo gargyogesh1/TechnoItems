@@ -15,6 +15,9 @@ export const servicesContent = {
     subtitle: "Build Fast, Secure & Scalable Websites That Grow Your Business",
     description:"Professional web development services for modern businesses. We design and develop high‑performance websites that convert visitors into customers.",
     description2:"We design and develop high‑performance websites that convert visitors into customers.",
+    image1:"/images/services/web/web1.webp",
+    image2:"/images/services/web/web2.webp",
+    image3:"/images/services/web/web3.webp",
 
     ctaPrimary: "Get a Free Consultation",
     ctaSecondary: "View Our Work",
@@ -168,6 +171,9 @@ export const servicesContent = {
 
     ctaPrimary: "Get a Free App Consultation",
     ctaSecondary: "View Our Apps",
+    image1:"/images/services/app/app1.webp",
+    image2:"/images/services/app/app2.webp",
+    image3:"/images/services/app/app3.webp",
 
     points: [
       "Android App Development",
@@ -316,6 +322,9 @@ export const servicesContent = {
 
     ctaPrimary: "Get a Free Marketing Audit",
     ctaSecondary: "View Case Studies",
+    image1:"/images/services/DM/dm1.avif",
+    image2:"/images/services/DM/dm2.avif",
+    image3:"/images/services/DM/dm3.avif",
 
     points: [
       "Search Engine Optimization (SEO)",
@@ -464,6 +473,9 @@ export const servicesContent = {
 
     ctaPrimary: "Get a Free AI Consultation",
     ctaSecondary: "Explore AI Solutions",
+    image1:"/images/services/datascience/ds1.jpg",
+    image2:"/images/services/datascience/ds2.jpg",
+    image3:"/images/services/datascience/ds3.jpg",
 
     points: [
       "Machine Learning & AI Models",

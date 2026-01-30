@@ -121,7 +121,7 @@ export default function Service() {
                     </motion.p>
                 ))}
             </div>
-            <TiltedImage />
+            <TiltedImage image={service.image1} />
         </div>
         <div id="features" className="px-4 md:px-16 lg:px-24 xl:px-32">
             <SectionTitle text1={service.servicesSection.title} text2={service.servicesSection.subtitle} text3={service.servicesSection.description} theme={service.theme} />
@@ -162,14 +162,14 @@ export default function Service() {
                         animate={{ y: 0, opacity: 1 }}
                         transition={{ duration: 0.8, ease: "easeOut" }}
                         >
-                        <img className="h-full w-auto" src="../assets/features-showcase-1.png" alt="features showcase" width={1000} height={500} />
+                        <img className="h-full w-auto" src={service.image2} alt="features showcase" width={1000} height={500} />
                     </motion.div>
                     <motion.div className="md:col-span-1"
                         initial={{ y: 150, opacity: 0 }}
                         animate={{ y: 0, opacity: 1 }}
                         transition={{ delay: 0.15, duration: 0.8, ease: "easeOut" }}
                     >
-                        <img src="../assets/features-showcase-2.png" alt="features showcase" width={1000} height={500} className="hover:-translate-y-0.5 transition duration-300" />
+                        <img src={service.image3} alt="features showcase" width={1000} height={500} className="hover:-translate-y-0.5 transition duration-300" />
                         <h3 className="text-[24px]/7.5 text-slate-300 font-medium mt-6">{service.valueProposition.headline} </h3>
                         <p className="text-slate-300 mt-2">{service.valueProposition.subheadline}</p>
                         <a href="#!" className={`group flex items-center gap-2 mt-4 ${service.theme.text} ${service.theme.hover} transition`}>
