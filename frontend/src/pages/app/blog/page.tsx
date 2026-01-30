@@ -16,7 +16,7 @@ const BlogPage = () => {
       document.title = "Blog Page | TechnoItems";
 
       // fetch("https://technoitemsbackend.onrender.com/api/blogs")
-      fetch("http://localhost:5000/api/blogs")
+      fetch("https://technoitemsbackend.onrender.com/api/blogs")
         .then((res) => res.json())
         .then((data) => {
           setBlogs(data);
