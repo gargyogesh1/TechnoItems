@@ -78,10 +78,100 @@
     ],
 
     "tags": ["web development", "frontend", "javascript", "seo"],
-    "views": 0,
-    "comments": 0,
+    "views": 500,
+    "comments": 3,
 
     "relatedPosts": [2],
+
+    "shareLinks": {
+      "facebook": "https://facebook.com/sharer/sharer.php",
+      "twitter": "https://twitter.com/intent/tweet",
+      "linkedin": "https://linkedin.com/shareArticle"
+    }
+  },
+  {
+    "id": 2,
+    "slug": "scalable-app-development-best-practices",
+    "title": "Scalable App Development: Best Practices for Modern Businesses",
+
+    "seo": {
+      "metaTitle": "Scalable App Development Best Practices",
+      "metaDescription": "Learn how to build scalable mobile and web applications using modern app development best practices and architecture.",
+      "focusKeyword": "app development"
+    },
+
+    "featuredImage": "https://images.unsplash.com/photo-1555949963-aa79dcee981c",
+    "publishDate": "24 Jan 2026",
+    "lastUpdated": "24 Jan 2026",
+    "readingTime": "8 min read",
+
+    "author": {
+      "name": "Neha Verma",
+      "image": "https://images.unsplash.com/photo-1544725176-7c40e5a2c9f9",
+      "designation": "Mobile App Strategist"
+    },
+
+    "intro": "App development today requires more than just writing code. Businesses need scalable, secure, and high-performing applications that can grow with user demand.",
+
+    "sections": [
+      {
+        "heading": "Choosing the Right Architecture",
+        "content": "A scalable app starts with a strong architecture. Microservices and modular architectures help teams scale features independently without impacting performance.",
+        "bulletPoints": [
+          "Microservices architecture",
+          "Modular codebase",
+          "API-first approach"
+        ]
+      },
+      {
+        "heading": "Cross-Platform Development",
+        "content": "Frameworks like Flutter and React Native allow developers to build apps for multiple platforms using a single codebase, reducing cost and time-to-market.",
+        "bulletPoints": [
+          "Single codebase",
+          "Faster development",
+          "Consistent user experience"
+        ]
+      },
+      {
+        "heading": "App Performance and Monitoring",
+        "content": "Continuous performance monitoring ensures apps remain fast and reliable. Analytics and crash reporting tools help identify and fix issues before users are affected.",
+        "bulletPoints": []
+      }
+    ],
+
+    "conclusion": "Scalable app development requires thoughtful planning, modern tools, and ongoing optimization. Following best practices ensures long-term success and user satisfaction.",
+
+    "impParagraph": "Businesses that invest in scalable app development gain flexibility, better performance, and the ability to grow without technical limitations.",
+
+    "cta": {
+      "text": "Start Your App Project",
+      "link": "/contact"
+    },
+
+    "secondaryCta": {
+      "text": "View App Development Services",
+      "link": "/services/app-development"
+    },
+
+    "internalLinks": [
+      {
+        "text": "Mobile App Development Process",
+        "url": "/blogs/mobile-app-development-process"
+      }
+    ],
+
+    "externalLinks": [
+      {
+        "text": "Flutter Official Documentation",
+        "url": "https://flutter.dev/docs"
+      }
+    ],
+
+    "tags": ["app development", "mobile apps", "flutter", "react native"],
+    "views": "1.3K",
+    "comments": 5,
+
+    "relatedPosts": [1],
 
     "shareLinks": {
       "facebook": "https://facebook.com/sharer/sharer.php",
@@ -196,8 +286,8 @@
   ],
 
   "tags": ["e-commerce", "online store", "web development", "mobile app"],
-  "views": 0,
-  "comments": 0,
+  "views": "1.1K",
+  "comments": 6,
 
   "relatedPosts": [2],
 
@@ -206,95 +296,5 @@
     "twitter": "https://twitter.com/intent/tweet",
     "linkedin": "https://linkedin.com/shareArticle"
   }
-  },
-  {
-    "id": 2,
-    "slug": "scalable-app-development-best-practices",
-    "title": "Scalable App Development: Best Practices for Modern Businesses",
-
-    "seo": {
-      "metaTitle": "Scalable App Development Best Practices",
-      "metaDescription": "Learn how to build scalable mobile and web applications using modern app development best practices and architecture.",
-      "focusKeyword": "app development"
-    },
-
-    "featuredImage": "https://images.unsplash.com/photo-1555949963-aa79dcee981c",
-    "publishDate": "24 Jan 2026",
-    "lastUpdated": "24 Jan 2026",
-    "readingTime": "8 min read",
-
-    "author": {
-      "name": "Neha Verma",
-      "image": "https://images.unsplash.com/photo-1544725176-7c40e5a2c9f9",
-      "designation": "Mobile App Strategist"
-    },
-
-    "intro": "App development today requires more than just writing code. Businesses need scalable, secure, and high-performing applications that can grow with user demand.",
-
-    "sections": [
-      {
-        "heading": "Choosing the Right Architecture",
-        "content": "A scalable app starts with a strong architecture. Microservices and modular architectures help teams scale features independently without impacting performance.",
-        "bulletPoints": [
-          "Microservices architecture",
-          "Modular codebase",
-          "API-first approach"
-        ]
-      },
-      {
-        "heading": "Cross-Platform Development",
-        "content": "Frameworks like Flutter and React Native allow developers to build apps for multiple platforms using a single codebase, reducing cost and time-to-market.",
-        "bulletPoints": [
-          "Single codebase",
-          "Faster development",
-          "Consistent user experience"
-        ]
-      },
-      {
-        "heading": "App Performance and Monitoring",
-        "content": "Continuous performance monitoring ensures apps remain fast and reliable. Analytics and crash reporting tools help identify and fix issues before users are affected.",
-        "bulletPoints": []
-      }
-    ],
-
-    "conclusion": "Scalable app development requires thoughtful planning, modern tools, and ongoing optimization. Following best practices ensures long-term success and user satisfaction.",
-
-    "impParagraph": "Businesses that invest in scalable app development gain flexibility, better performance, and the ability to grow without technical limitations.",
-
-    "cta": {
-      "text": "Start Your App Project",
-      "link": "/contact"
-    },
-
-    "secondaryCta": {
-      "text": "View App Development Services",
-      "link": "/services/app-development"
-    },
-
-    "internalLinks": [
-      {
-        "text": "Mobile App Development Process",
-        "url": "/blogs/mobile-app-development-process"
-      }
-    ],
-
-    "externalLinks": [
-      {
-        "text": "Flutter Official Documentation",
-        "url": "https://flutter.dev/docs"
-      }
-    ],
-
-    "tags": ["app development", "mobile apps", "flutter", "react native"],
-    "views": 0,
-    "comments": 0,
-
-    "relatedPosts": [1],
-
-    "shareLinks": {
-      "facebook": "https://facebook.com/sharer/sharer.php",
-      "twitter": "https://twitter.com/intent/tweet",
-      "linkedin": "https://linkedin.com/shareArticle"
-    }
   }
 ]
