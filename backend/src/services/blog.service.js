@@ -28,7 +28,7 @@ The JSON MUST follow this EXACT STRUCTURE and ALL fields must be present:
 
   "author": {
     "name": string,
-    "image": string,
+    "imageLink": string,
     "designation": string
   },
 

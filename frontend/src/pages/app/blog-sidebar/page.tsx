@@ -140,7 +140,7 @@ const BlogSidebarPage = () => {
                       <div className="mr-4">
                         <div className="relative h-10 w-10 overflow-hidden rounded-full">
                           <img
-                            src={blog.author.image}
+                            src={blog.author.imageLink}
                             alt={blog.author.name} 
                             
                           />

@@ -32,7 +32,7 @@ export interface Blog {
 
   author: {
     name: string;
-    image: string;
+    imageLink: string;
     designation: string;
   };
 

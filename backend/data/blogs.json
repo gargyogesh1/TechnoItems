@@ -1,6 +1,6 @@
 [
   {
-    "id": 401,
+    "id":1,
     "slug": "scaling-ecommerce-platform-peak-season-success",
     "title": "Scaling Your E-Commerce Platform for Peak Season Success",
     "seo": {
@@ -13,8 +13,8 @@
     "lastUpdated": "Mon Feb 09 2026",
     "readingTime": "8 min read",
     "author": {
-      "name": "Alex Chen",
-      "image": "/authors/alex_chen.jpg",
+      "name": "Khushi Agarwal",
+      "imageLink": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8Z2lybHxlbnwwfHwwfHx8MA%3D%3D",
       "designation": "Head of E-commerce Infrastructure"
     },
     "intro": "The annual rush of peak shopping season—Black Friday, Cyber Monday, and the holidays—can represent 40% or more of annual revenue for many e-commerce businesses. However, this massive influx of traffic often pushes ill-prepared platforms past their breaking point, resulting in crashes, slow transactions, and catastrophic revenue loss. Proper planning and architectural scaling are non-negotiable insurance policies for success.",
@@ -122,11 +122,10 @@
       "twitter": "https://twitter.com/intent/tweet?url=scaling-ecommerce-platform-peak-season-success",
       "linkedin": "https://www.linkedin.com/shareArticle?url=scaling-ecommerce-platform-peak-season-success"
     },
-    "authorImage": "https://images.unsplash.com/photo-1680356475155-3ca8fa2192aa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjE2MDV8MHwxfHNlYXJjaHwxfHxhdXRob3IlMjBwb3J0cmFpdHxlbnwwfHx8fDE3NzA2MTkzMzl8MA&ixlib=rb-4.1.0&q=80&w=1080",
     "createdAt": "2026-02-09T06:44:19.617Z"
   },
   {
-    "id": 401,
+    "id": 2,
     "slug": "the-rise-of-embedded-finance-transforming-non-financial-sectors",
     "title": "The Rise of Embedded Finance: Transforming Non-Financial Sectors",
     "seo": {
@@ -140,7 +139,7 @@
     "readingTime": "6 min read",
     "author": {
       "name": "Anya Sharma",
-      "image": "/authors/anya_sharma.jpg",
+      "imageLink": "https://images.unsplash.com/photo-1680356475155-3ca8fa2192aa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjE2MDV8MHwxfHNlYXJjaHwxfHxhdXRob3IlMjBwb3J0cmFpdHxlbnwwfHx8fDE3NzA2MTkzMzl8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "designation": "FinTech Strategy Analyst"
     },
     "intro": "The modern digital economy demands convenience. Customers expect seamless experiences, and that expectation now extends to financial transactions. Embedded Finance is the revolutionary paradigm shifting financial services away from traditional institutions and directly into the point of need within non-financial platforms. This trend is not just about payments; it’s about making banking, lending, and insurance invisible and contextual, fundamentally transforming how businesses interact with their users and generate revenue.",
@@ -236,11 +235,10 @@
       "twitter": "https://twitter.com/intent/tweet?url=the-rise-of-embedded-finance-transforming-non-financial-sectors&text=The%20Rise%20of%20Embedded%20Finance",
       "linkedin": "https://www.linkedin.com/shareArticle?url=the-rise-of-embedded-finance-transforming-non-financial-sectors"
     },
-    "authorImage": "https://images.unsplash.com/photo-1680356475155-3ca8fa2192aa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjE2MDV8MHwxfHNlYXJjaHwxfHxhdXRob3IlMjBwb3J0cmFpdHxlbnwwfHx8fDE3NzA2MTkzMzl8MA&ixlib=rb-4.1.0&q=80&w=1080",
     "createdAt": "2026-02-09T06:42:15.441Z"
   },
   {
-    "id": 1,
+    "id": 3,
     "slug": "modern-web-development-trends-2026",
     "title": "Modern Web Development Trends You Must Know in 2026",
     "seo": {
@@ -253,8 +251,8 @@
     "lastUpdated": "24 Jan 2026",
     "readingTime": "7 min read",
     "author": {
-      "name": "Amit Sharma",
-      "image": "https://images.unsplash.com/photo-1607746882042-944635dfe10e",
+      "name": "Anisha Sharma",
+      "imageLink": "https://images.unsplash.com/photo-1607746882042-944635dfe10e",
       "designation": "Senior Web Architect"
     },
     "intro": "Web development in 2026 is evolving faster than ever. With the rise of AI-assisted development, serverless architecture, and performance-first frameworks, developers must adapt to stay competitive.",
@@ -323,7 +321,7 @@
     }
   },
   {
-    "id": 2,
+    "id": 4,
     "slug": "scalable-app-development-best-practices",
     "title": "Scalable App Development: Best Practices for Modern Businesses",
     "seo": {
@@ -337,7 +335,7 @@
     "readingTime": "8 min read",
     "author": {
       "name": "Neha Verma",
-      "image": "https://images.unsplash.com/photo-1544725176-7c40e5a2c9f9",
+      "imageLink": "https://plus.unsplash.com/premium_photo-1682096108814-b53765f48ba5?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTd8fGluZGlhbiUyMGdpcmx8ZW58MHx8MHx8fDA%3D",
       "designation": "Mobile App Strategist"
     },
     "intro": "App development today requires more than just writing code. Businesses need scalable, secure, and high-performing applications that can grow with user demand.",
@@ -406,7 +404,7 @@
     }
   },
   {
-    "id": 1,
+    "id": 5,
     "slug": "custom-ecommerce-platform-development-packages-2026",
     "title": "Custom E‑Commerce Platform Development Packages for Every Business",
     "seo": {
@@ -420,7 +418,7 @@
     "readingTime": "6 min read",
     "author": {
       "name": "Ram Kumar",
-      "image": "https://images.unsplash.com/photo-1607746882042-944635dfe10e",
+      "imageLink": "https://images.unsplash.com/photo-1615109398623-88346a601842?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bWFufGVufDB8fDB8fHww",
       "designation": "E‑Commerce Solutions Architect"
     },
     "intro": "Launching a successful online store requires more than just a website—it needs a powerful, scalable, and user‑friendly e‑commerce platform. We provide complete e‑commerce development solutions with flexible packages tailored to startups, growing brands, and enterprise businesses.",

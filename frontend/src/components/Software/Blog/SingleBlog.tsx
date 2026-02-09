@@ -34,7 +34,8 @@ const SingleBlog = ({ blog }: { blog: Blog }) => {
             <div className="border-body-color/10 mr-5 flex items-center border-r pr-5 xl:mr-3 xl:pr-3 2xl:mr-5 2xl:pr-5 dark:border-white/10">
               <div className="mr-4">
                 <div className="relative h-10 w-10 overflow-hidden rounded-full">
-                  <img src={author.image || "../pages/styles/logobg.png"} alt="TechnoItems" onError={(e) => { "pages/styles/logobg.png" }}/>
+                  {/* <img src={author.image || "../pages/styles/logobg.png"} alt="TechnoItems" onError={(e) => { "pages/styles/logobg.png" }}/> */}
+                  <img src={author.imageLink} alt="TechnoItems" onError={(e) => { "pages/styles/logobg.png" }}/>
                 </div>
               </div>
               <div className="w-full">
