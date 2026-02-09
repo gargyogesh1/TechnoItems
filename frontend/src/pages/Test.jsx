@@ -4,7 +4,8 @@ const Test = () => {
   const [msg, setMsg] = useState("");
 
   useEffect(() => {
-    fetch("http://localhost:5000/api/test")
+    // fetch("http://localhost:5000/api/test")
+    fetch("https://technoitemsbackend.onrender.com/api/test")
       .then(res => res.json())
       .then(data => setMsg(data.message));
   }, []);
