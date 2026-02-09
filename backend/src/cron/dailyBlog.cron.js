@@ -25,7 +25,7 @@ const randomItem = (arr) =>
 
 cron.schedule(
   // "0 10 * * *",
-  "*/2 * * * *",
+  "*/5 * * * *",
   // "0 10 */2 * *",
   async () => {
   if (isRunning) {

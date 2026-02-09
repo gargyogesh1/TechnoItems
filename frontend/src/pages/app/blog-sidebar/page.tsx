@@ -27,8 +27,8 @@ const BlogSidebarPage = () => {
   const fetchRelatedBlogs = async () => {
     try {
       const res = await fetch(
-        // `http://localhost:5000/api/blogs?ids=${blog.relatedPosts.join(",")}`
-        `https://technoitemsbackend.onrender.com/api/blogs?ids=${blog.relatedPosts.join(",")}`
+        `http://localhost:5000/api/blogs?ids=${blog.relatedPosts.join(",")}`
+        // `https://technoitemsbackend.onrender.com/api/blogs?ids=${blog.relatedPosts.join(",")}`
       );
       const data: Blog[] = await res.json();
       setRelatedBlogs(data);
@@ -48,8 +48,8 @@ const BlogSidebarPage = () => {
       try {
         // ✅ Fetch single blog by slug
         const res = await fetch(
-          // `http://localhost:5000/api/blogs/${decodedSlug}`
-          `https://technoitemsbackend.onrender.com/api/blogs/${decodedSlug}`
+          `http://localhost:5000/api/blogs/${decodedSlug}`
+          // `https://technoitemsbackend.onrender.com/api/blogs/${decodedSlug}`
         );
 
         if (!res.ok) {
