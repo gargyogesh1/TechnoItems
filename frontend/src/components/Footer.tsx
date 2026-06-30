@@ -1,5 +1,5 @@
 
-import { Facebook, Twitter, Instagram, Linkedin, Github } from 'lucide-react';
+import { Facebook, X, Instagram, Linkedin, Github } from 'lucide-react';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -8,11 +8,11 @@ const Footer = () => {
     <footer className="bg-[#12141C] pt-16 pb-8">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8 pb-8">
-          <div className="lg:col-span-2">
+          <div className="flex flex-col items-center lg:items-start text-center lg:text-left lg:col-span-2">
             <h2 className="text-2xl font-bold text-white mb-4">
               Techno<span className="text-crypto-purple">Items</span>
             </h2>
-            <p className="text-gray-400 mb-6 max-w-xs">
+            <p className="text-gray-400 mb-6 max-w-xs mx-auto lg:mx-0">
               Innovative software, AI solutions, and digital marketing services designed to help businesses build, scale, and succeed in the digital era.
             </p>
             <div className="flex space-x-4">
@@ -21,8 +21,8 @@ const Footer = () => {
                 <span className="sr-only">Facebook</span>
               </a>
               <a href="#!" className="text-gray-400 hover:text-crypto-purple transition-colors">
-                <Twitter className="h-5 w-5" />
-                <span className="sr-only">Twitter</span>
+                <X className="h-5 w-5" />
+                <span className="sr-only">X</span>
               </a>
               <a href="#!" className="text-gray-400 hover:text-crypto-purple transition-colors">
                 <Instagram className="h-5 w-5" />
@@ -39,7 +39,7 @@ const Footer = () => {
             </div>
           </div>
           
-          <div>
+          <div className="flex flex-col items-center lg:items-start text-center lg:text-left">
             <h3 className="text-white font-medium mb-4">Services</h3>
             <ul className="space-y-2">
               <li><a href="/service/web" className="text-gray-400 hover:text-crypto-purple transition-colors">Web Development</a></li>
@@ -50,7 +50,7 @@ const Footer = () => {
             </ul>
           </div>
           
-          <div>
+          <div className="flex flex-col items-center lg:items-start text-center lg:text-left">
             <h3 className="text-white font-medium mb-4">Industries</h3>
             <ul className="space-y-2">
               <li><a href="/startup/Ecom" className="text-gray-400 hover:text-crypto-purple transition-colors">E‑Commerce Development</a></li>
@@ -62,7 +62,7 @@ const Footer = () => {
             </ul>
           </div>
           
-          <div>
+          <div className="flex flex-col items-center lg:items-start text-center lg:text-left">
             <h3 className="text-white font-medium mb-4">Resources</h3>
             <ul className="space-y-2">
               <li><a href="/blog" className="text-gray-400 hover:text-crypto-purple transition-colors">Blog & Case Studies</a></li>

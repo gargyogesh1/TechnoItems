@@ -87,7 +87,7 @@ const Pricing = () => {
                 
                 <div>
                   <p className="text-sm font-medium text-gray-300 mb-4">What's included:</p>
-                  <ul className="space-y-3">
+                  <ul className="space-y-3" style={{ textAlign: 'left' }}>
                     {plan.features.map((feature, i) => (
                       <li key={i} className="flex items-start">
                         <Check className="h-5 w-5 text-crypto-purple mr-3 shrink-0" />

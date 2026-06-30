@@ -17,7 +17,7 @@ import { motion } from "framer-motion";
 import { ArrowUpRight } from "lucide-react";
 import Marquee from "react-fast-marquee";
 
-import { ArrowRightIcon, MailIcon, UserIcon, CheckIcon, VideoIcon } from "lucide-react";
+import { ArrowRightIcon, MailIcon, UserIcon, CheckIcon, VideoIcon , PhoneIcon } from "lucide-react";
 
 import { servicesContent } from "@/content/servicesContent";
 import { useParams } from "react-router-dom";
@@ -100,10 +100,10 @@ export default function Service() {
                 animate={{ y: 0, opacity: 1 }}
                 transition={{ duration: 0.8, ease: "easeOut"}}
             >
-                <button onClick={() => setOpen(true)} className={`${service.theme.bgButton} ${service.theme.hover} text-white rounded-full px-7 h-11`}>
+                <button onClick={() => setOpen(true)} className={`${service.theme.bgButton} ${service.theme.hover} text-white rounded-full px-7 h-16`}>
                     {service.ctaPrimary}
                 </button>
-                <button className={`flex items-center gap-2 border ${service.theme.border} ${service.theme.hover} transition rounded-full px-6 h-11`}>
+                <button className={`flex items-center gap-2 border ${service.theme.border} ${service.theme.hover} transition rounded-full px-6 h-16`}>
                     <VideoIcon strokeWidth={1} />
                     <span>{service.ctaSecondary}</span>
                 </button>
@@ -261,7 +261,7 @@ export default function Service() {
                     <p className="font-semibold text-3xl">{stack.category}</p>
 
                     {/* ✅ FEATURES */}
-                    <ul className="list-none text-slate-300 mt-6 space-y-2">
+                    <ul className="list-none text-slate-300 mt-6 space-y-2" style={{ textAlign: "left" }}>
                         {stack.items.map((item, i) => (
                         <li key={i} className="flex items-center gap-2">
                             <CheckIcon className={`size-4.5 ${service.theme.text}`} />
@@ -362,7 +362,7 @@ export default function Service() {
             transition={{ duration: 0.8, ease: "easeOut" }}
             >
             <p className="mb-2 font-medium">Your name</p>
-            <div className="flex items-center pl-3 rounded-lg border border-slate-700 focus-within:border-pink-500">
+            <div className="flex items-center pl-3 rounded-lg border border-slate-700 focus-within:border-pink-500" style={{ backgroundColor: "black" }}>
                 <UserIcon className="size-5" />
                 <input
                 style={{ backgroundColor: "hsl(var(--background))" }}
@@ -370,6 +370,33 @@ export default function Service() {
                 type="text"
                 placeholder="Enter your name"
                 className="w-full p-3 outline-none"
+                />
+            </div>
+            </motion.div>
+            {/* Phone number Field */}
+            <motion.div
+            initial={{ y: 150, opacity: 0 }}
+            animate={{ y: 0, opacity: 1 }}
+            transition={{ duration: 0.8, ease: "easeOut" }}
+            >
+            <p className="mb-2 font-medium">Contact Number</p>
+            <div className="flex items-center pl-3 rounded-lg border border-slate-700 focus-within:border-pink-500" style={{ backgroundColor: "black" }}>
+                <PhoneIcon className="size-5" />
+                <input
+                    type="tel"
+                    name="Phone"
+                    placeholder="Enter your Phone number"
+                    className="w-full p-3 outline-none"
+                    style={{ backgroundColor: "hsl(var(--background))" }}
+                    inputMode="numeric"
+                    pattern="[0-9]{10}"
+                    maxLength={10}
+
+                // style={{ backgroundColor: "hsl(var(--background))" }}
+                // name="Phone"
+                // type="number"
+                // placeholder="Enter your Phone number"
+                // className="w-full p-3 outline-none"
                 />
             </div>
             </motion.div>
@@ -381,7 +408,7 @@ export default function Service() {
             transition={{ duration: 0.8, ease: "easeOut" }}
             >
             <p className="mb-2 font-medium">Email id</p>
-            <div className="flex items-center pl-3 rounded-lg border border-slate-700 focus-within:border-pink-500">
+            <div className="flex items-center pl-3 rounded-lg border border-slate-700 focus-within:border-pink-500" style={{ backgroundColor: "black" }}>
                 <MailIcon className="size-5" />
                 <input
                 style={{ backgroundColor: "hsl(var(--background))" }}
@@ -391,6 +418,7 @@ export default function Service() {
                 className="w-full p-3 outline-none"
                 />
             </div>
+            
             </motion.div>
                  <div className={`absolute top-70 -z-40 right-1/2 size-72 ${service.theme.bgD} blur-[150px]`}></div>
 
