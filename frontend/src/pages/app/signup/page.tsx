@@ -204,7 +204,7 @@ const SignupPage = () => {
                 </form>
                 <p className="text-body-color text-center text-base font-medium">
                   Already using Startup?{" "}
-                  <Link to="/signin" className="text-primary hover:underline">
+                  <Link to="/signin" className="text-primary hover:underline"  onClick={() => window.scrollTo(0, 0)}>
                     Sign in
                   </Link>
                 </p>

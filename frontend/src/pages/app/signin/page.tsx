@@ -185,7 +185,7 @@ const SigninPage = () => {
                 </form>
                 <p className="text-body-color text-center text-base font-medium">
                   Don’t you have an account?{" "}
-                  <Link to="/signup" className="text-primary hover:underline">
+                  <Link to="/signup" className="text-primary hover:underline" onClick={() => window.scrollTo(0, 0)}>
                     Sign up
                   </Link>
                 </p>

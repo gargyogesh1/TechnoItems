@@ -16,23 +16,23 @@ const Footer = () => {
               Innovative software, AI solutions, and digital marketing services designed to help businesses build, scale, and succeed in the digital era.
             </p>
             <div className="flex space-x-4">
-              <a href="#!" className="text-gray-400 hover:text-crypto-purple transition-colors">
+              <a href="https://www.facebook.com/profile.php?id=61591190385964" className="text-gray-400 hover:text-crypto-purple transition-colors">
                 <Facebook className="h-5 w-5" />
                 <span className="sr-only">Facebook</span>
               </a>
-              <a href="#!" className="text-gray-400 hover:text-crypto-purple transition-colors">
+              <a href="https://www.facebook.com/profile.php?id=61591190385964" className="text-gray-400 hover:text-crypto-purple transition-colors">
                 <X className="h-5 w-5" />
                 <span className="sr-only">X</span>
               </a>
-              <a href="#!" className="text-gray-400 hover:text-crypto-purple transition-colors">
+              <a href="https://www.facebook.com/profile.php?id=61591190385964" className="text-gray-400 hover:text-crypto-purple transition-colors">
                 <Instagram className="h-5 w-5" />
                 <span className="sr-only">Instagram</span>
               </a>
-              <a href="#!" className="text-gray-400 hover:text-crypto-purple transition-colors">
+              <a href="https://www.linkedin.com/company/techno-items/?viewAsMember=true" className="text-gray-400 hover:text-crypto-purple transition-colors">
                 <Linkedin className="h-5 w-5" />
                 <span className="sr-only">LinkedIn</span>
               </a>
-              <a href="#!" className="text-gray-400 hover:text-crypto-purple transition-colors">
+              <a href="https://www.linkedin.com/company/techno-items/?viewAsMember=true" className="text-gray-400 hover:text-crypto-purple transition-colors">
                 <Github className="h-5 w-5" />
                 <span className="sr-only">GitHub</span>
               </a>

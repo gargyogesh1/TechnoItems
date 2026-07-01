@@ -1,7 +1,8 @@
 import { useState, useEffect } from 'react';
 import { Button } from '@/components/ui/button';
-import { Menu, X } from 'lucide-react';
+import { ArrowRight, Menu, X } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import { useMeeting } from "@/components/MeetingContext";
 
 const startupLinks = [
   { label: "E-Commerce & Marketplaces", path: "/startup/Ecom" },
@@ -28,6 +29,7 @@ const Navbar = () => {
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
+  const { setOpen } = useMeeting();
 
   return (
     <nav className={`fixed w-full z-50 transition-all duration-300 ${isScrolled ? 'bg-crypto-blue/80 backdrop-blur-md py-3 shadow-lg' : 'py-6'}`}>
@@ -141,13 +143,16 @@ const Navbar = () => {
         </ul>
 
         <div className="hidden lg:flex items-center space-x-4">
-          <Link to="/signup" onClick={() => window.scrollTo(0, 0)}>
+          <Link to="/signin" onClick={() => window.scrollTo(0, 0)}>
           <Button variant="ghost" className="text-gray-300 hover:text-white">
             Login
           </Button>
           </Link>
-          <Link to="/signin" onClick={() => window.scrollTo(0, 0)}>
+          {/* <Link to="/signup" onClick={() => window.scrollTo(0, 0)}>
             <Button className="bg-crypto-purple hover:bg-crypto-dark-purple text-white w-full">Register</Button>
+          </Link> */}
+          <Link to="/signup" onClick={() => window.scrollTo(0, 0)}>
+            <Button className="bg-crypto-purple hover:bg-crypto-dark-purple text-white w-full" onClick={() => setOpen(true)}>Schedule Meeting <ArrowRight className="ml-2 h-5 w-5" /></Button>
           </Link>
         </div>
 
@@ -268,13 +273,16 @@ const Navbar = () => {
                 </Link>
               </li>
               <li className="pt-4 flex flex-col space-y-3">
-                <Button variant="ghost" className="text-gray-300 hover:text-white w-full justify-start">
-                  Login
-                </Button>
-                <Link to="#!">
-                  <Button className="bg-crypto-purple hover:bg-crypto-dark-purple text-white w-full">Buy Now</Button>
+                <Link to="/signin" onClick={() => window.scrollTo(0, 0)}>
+                  <Button variant="ghost" className="text-gray-300 hover:text-white w-full justify-start">
+                    Login
+                  </Button>
+                </Link>
+                <Link to="https://cal.com/technoitems-k25a0r" target="_blank" rel="noopener noreferrer" onClick={() => window.scrollTo(0, 0)}>
+                  <Button className="bg-crypto-purple hover:bg-crypto-dark-purple text-white w-full">Schedule Meeting</Button>
                 </Link>
               </li>
+                      
             </ul>
           </div>
         </div>
