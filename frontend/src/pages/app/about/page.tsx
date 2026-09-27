@@ -52,7 +52,7 @@ const AboutPage = () => {
                 </h3>
 
                 <h4 className="mb-6 text-lg font-semibold text-primary">
-                  Aditya Goyal — Founder & CEO
+                  Yogesh Gupta — Founder & CEO
                 </h4>
 
                 <p className="TechnoItems text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed mb-4">
